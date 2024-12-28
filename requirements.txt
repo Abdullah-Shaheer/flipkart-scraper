@@ -1,0 +1,9 @@
+requests_html
+beautifulsoup4==4.11.1
+random==1.0.0
+time==3.0.0
+concurrent.futures==3.1.0
+json==2.0.9
+sqlite3==3.35.5
+fake_useragent==1.1.1
+pandas==1.5.3
