@@ -82,10 +82,12 @@ The scraper saves data in multiple formats:
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Abdullah-Shaheer/flipkart-scraper.git
-1.  `cd flipkart-scraper`
+      git clone https://github.com/Abdullah-Shaheer/flipkart-scraper.git
+2. ```bash
+    `cd flipkart-scraper`
     
-2.  `pip install -r requirements.txt`
+3. ```bash
+   `pip install -r requirements.txt`
 
     
 
