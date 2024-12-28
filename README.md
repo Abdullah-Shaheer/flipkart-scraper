@@ -12,6 +12,7 @@ A powerful, multithreaded web scraper to extract bulk information about smartwat
   - CSV
   - Excel
   - JSON
+  - SQLITE3
 - **Error Handling**: Handles errors gracefully, including:
   - Retry mechanism for failed requests
   - Captcha detection and handling
@@ -50,8 +51,8 @@ The scraper extracts the following fields for each product:
 | `Sales Package`              | Items included in the box            |
 | `Model Number`, `Model Name` | Identification details               |
 | `Shape`, `Color`             | Dial and strap attributes            |
-| `Touchscreen?`               | Whether the watch is touchscreen-enabled |
-| `Water Resistant?`           | Water resistance capability          |
+| `Touchscreen`               | Whether the watch is touchscreen-enabled |
+| `Water Resistance`           | Water resistance capability          |
 | `Sensor`                     | Sensor details                       |
 | `Battery Type`               | Type of battery                      |
 | `Charge Time`                | Time taken to charge fully           |
@@ -69,27 +70,28 @@ The scraper saves data in multiple formats:
 1. **CSV**: Clean, tabular data ready for analysis.
 2. **Excel**: Organized spreadsheets for business use.
 3. **JSON**: Machine-readable format for developers.
-4. **SQLITE**: 
+4. **SQLITE**: Database for detailed analysis.
 ---
 
 ## 🧑‍💻 Usage
 
 ### Prerequisites
 - Python 3.8 or later installed on your system.
-- Required libraries installed (see below).
+- Required libraries installed.
 
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/flipkart-smartwatches-scraper.git
-1.  bashCopy codecd flipkart-smartwatches-scraper
+   git clone https://github.com/Abdullah-Shaheer/flipkart-scraper.git
+1.  `cd flipkart-scraper`
     
-2.  bashCopy codepip install -r requirements.txt
+2.  `pip install -r requirements.txt`
+
     
 
 ### Running the Script
 
-1.  bashCopy codepython scraper.py
+1.  Run the main python script
     
 2.  Monitor the output in the console for debugging and progress tracking.
     
@@ -113,31 +115,9 @@ This project includes a robust error-handling mechanism:
     
 *   Automatically adapts to website delays and throttling using time.sleep() and retry logic.
     
-
-📊 Example Output
------------------
-
-### JSON
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   jsonCopy code[    {      "Title": "Smartwatch XYZ",      "Price": "₹3,999",      "Rating": "4.5",      "No. of Reviews": "1200",      "Width": "45 mm",      "Height": "12 mm",      "Weight": "50 g",      ...    }  ]   `
-
-### CSV/Excel
-
-TitlePriceRatingNo. of ReviewsWidthHeightWeight...Smartwatch XYZ₹3,9994.5120045 mm12 mm50 g...
-
-✨ Contributions
----------------
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/flipkart-smartwatches-scraper/issues).
-
-💼 License
-----------
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 🔗 Connect
 ----------
 
-*   GitHub: [your-username](https://github.com/your-username)
+*   GitHub: [Abdullah-Shaheer](https://github.com/Abdullah-Shaheer)
     
-*   LinkedIn: [Your Name](https://linkedin.com/in/your-name)
+*   Gmail: abdullahshaheer17398@gmail.com
