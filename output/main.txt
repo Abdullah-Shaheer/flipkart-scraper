@@ -1,1 +1,0 @@
-Output is in various formats like csv, excel, json and also a database
